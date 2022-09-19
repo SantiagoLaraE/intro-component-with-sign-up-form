@@ -78,6 +78,8 @@ p{
     width: 100%;
     margin-top: 1.6rem;
     border-radius: 0.4rem;
+    font-weight: 700;
+    color: var(--dark-color);
 }
 .form__input:first-child{
     margin: 0;
@@ -133,7 +135,11 @@ p{
     text-decoration: none;
     font-weight: 700;
 }
-
+.form__congratulations{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 4.8rem 0;
+}
 /* ----- Attribution -----*/
 .attribution{
     text-align: center;
@@ -156,8 +162,6 @@ p{
     }
     .hero__text, .hero__form{
         width: 50%;
-    }
-    .hero__text{
         display: flex;
         flex-direction: column;
         justify-content: center;
